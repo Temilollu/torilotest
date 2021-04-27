@@ -46,3 +46,53 @@
   line-height: 25px;
   color: #3b4859;
 }
+.second-col {
+  margin-top: 1rem;
+  background: #ffffff;
+  border: 1px solid #e3eded;
+  border-radius: 2px;
+  padding: 0 20px;
+}
+.second-col heading {
+  display: flex;
+  justify-content: space-between;
+}
+.second-col .heading h2 {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  color: #2979f2;
+}
+.second-col .heading button {
+  font-size: 12px;
+  line-height: 15px;
+  color: #ffffff;
+  background: #2979f2;
+  border-radius: 2px;
+  border-style: none;
+  padding: 0.5rem 0.8rem;
+}
+.message {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #E3EDED;
+}
+.text .name {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 15px;
+  color: #2979f2;
+  margin: 0.3rem;
+}
+.text p {
+  margin: 0.3rem;
+  font-size: 11px;
+  line-height: 15px;
+  color: rgba(99, 115, 129, 1);
+}
+.message img{
+    align-self: flex-start;
+    margin-top: .3rem;
+}

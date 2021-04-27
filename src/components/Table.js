@@ -11,7 +11,7 @@ import AtlassianLogo from "../assets/icons/Rectangle 12 (6).png";
 import WeevilCompanyLogo from "../assets/icons/Rectangle 12 (7).png";
 import EnyataLogo from "../assets/icons/Rectangle 12 (8).png";
 import CloudNetLogo from "../assets/icons/Rectangle 12 (9).png";
-const tableDta = [
+export const tableData = [
   {
     logo: cregitalIcon,
     companyName: "Cregital",
@@ -143,7 +143,7 @@ const Table = () => {
           <th width="40%">Revenue</th>
         </tr>
 
-        {tableDta.map((row) => (
+        {tableData.map((row) => (
           <tr key={row.companyName}>
             <td>
               <input type="checkbox" name="" id="" />
