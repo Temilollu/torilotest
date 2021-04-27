@@ -1,0 +1,77 @@
+.homepage-container {
+  background-color: rgba(255, 255, 255, 1);
+  padding: 20px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+.navbar input {
+  background: #ffffff;
+  border: 1px solid #e3eded;
+  box-sizing: border-box;
+  border-radius: 2px;
+  height: 35px;
+  width: 400px;
+  padding-left: 2.5rem;
+}
+.searchIcon {
+  position: absolute;
+  left: 2%;
+}
+.user {
+  border-radius: 50%;
+  vertical-align: bottom;
+}
+.overview-container h2 {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+  color: #110b56;
+}
+.overview-item {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 20px;
+}
+.overview-item .overview {
+  border-radius: 2px;
+  padding: 1rem;
+}
+
+.overview-item .overview p {
+  margin: 0.3rem;
+  color: #110b56;
+}
+.overview-item .overview .title {
+  font-size: 15px;
+  line-height: 19px;
+  font-weight: normal;
+  margin-bottom: 1rem;
+}
+
+.overview-item .overview .number {
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 25px;
+}
+.overview-item .overview .green {
+  font-size: 12px;
+  line-height: 15px;
+  color: #50b83c;
+}
+.overview-item .overview .red {
+  font-size: 12px;
+  line-height: 15px;
+  color: #f52d56;
+}
+.overview-item .overview .time {
+  color: #919eab;
+}
+.homepage-container .table-side{
+    display: grid;
+    grid-template-columns: 2.5fr 1.5fr;
+}

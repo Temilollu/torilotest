@@ -1,0 +1,33 @@
+.side-bar-wrapper {
+  background-color: rgba(244, 245, 250, 1);
+  padding-top: 4rem ;
+  position: relative;
+}
+.side-bar-wrapper a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  padding: 0 0 0 20px ;
+  margin: 1rem 0;
+}
+
+.side-bar-wrapper a p {
+  margin: .5rem 0 .5rem 1.1rem;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 19px;
+}
+.side-bar-wrapper :nth-of-type(5) {
+  position: absolute;
+  bottom: 0;
+  /* display: none; */
+}
+.active { 
+    color: rgba(41, 121, 242, 1);
+    background-color: rgba(105,105,145,.064);
+    border-right: 3px solid #00f;
+}
+.inactive{
+    color: rgba(99, 115, 129, 1);
+}
