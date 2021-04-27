@@ -1,0 +1,54 @@
+.first {
+  display: flex;
+  align-items: center;
+  padding: 0.8rem 0;
+}
+.graph-container {
+  position: relative;
+}
+.first p {
+  width: 4%;
+  margin: 0;
+  align-self: center;
+  font-size: 12px;
+  line-height: 15px;
+  color: #79869f;
+}
+.first .line {
+  width: 90%;
+  display: block;
+  height: 0.5px;
+  background-color: #d6dce0;
+  
+}
+.months {
+  display: flex;
+  justify-content: space-between;
+  width: 86%;
+  margin: -10px auto 0;
+}
+.months p {
+  margin: 0.5rem 0;
+  font-size: 12px;
+  line-height: 15px;
+  color: #79869f;
+}
+.blue-vector {
+  width: 90%;
+  position: absolute;
+  left: 4%;
+  top: 15%;
+}
+.red-vector {
+  width: 90%;
+  position: absolute;
+  left: 4%;
+  top: 27%;
+}
+.red-bg {
+  background: linear-gradient(
+    180deg,
+    rgba(250, 95, 28, 0.1) 0%,
+    rgba(250, 95, 28, 0.02) 100%
+  );
+}
