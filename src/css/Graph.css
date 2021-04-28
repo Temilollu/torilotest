@@ -1,7 +1,7 @@
 .first {
   display: flex;
   align-items: center;
-  padding: 0.8rem 0;
+  padding: 1rem 0;
 }
 .graph-container {
   position: relative;
@@ -43,21 +43,48 @@
   color: #110b56;
 }
 .vl {
-  border-left: 1px solid #0F3F62;
-  height: 105px;
+  border-left: 1px solid #0f3f62;
+  height: 121px;
   top: 21%;
   position: absolute;
   left: 47%;
 }
-.circle{
+.circle {
   width: 10px;
   height: 10px;
-  border: 1px solid #FA5F1C;
+  border: 1px solid #fa5f1c;
   border-radius: 50%;
-  background: #F7FAFC;
+  background: #f7fafc;
   position: absolute;
-  left: 46.4%;
+  left: 46.5%;
   top: 25%;
+}
+.new-app {
+  position: absolute;
+  left: 40.5%;
+  background: #ffffff;
+  border: 1px solid #e3eded;
+  border-radius: 5px;
+  padding: 0 1rem;
+  top: -2%;
+}
+.Jun {
+  color: #110b56;
+  font-weight: bold;
+  font-size: 12px;
+}
+.new-app p {
+  margin: 0.3rem 0;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #637381;
+}
+.new-app .numbers {
+  font-size: 15px;
+  color: #110b56;
 }
 
 .first p {
@@ -85,6 +112,7 @@
   font-size: 12px;
   line-height: 15px;
   color: #79869f;
+  margin-left: 1rem;
 }
 .blue-vector {
   width: 95%;

@@ -38,6 +38,10 @@ const Graph = () => {
         <img src={vector35} className="red-vector" alt="" />
         <div class="vl"></div>
         <div className="circle"></div>
+        <div className="new-app">
+          <p className="numbers">689</p>
+          <p>New applications</p>
+        </div>
         <div className="rows">
           <div className="first">
             <p>900</p> <div className="line"></div>
@@ -54,7 +58,7 @@ const Graph = () => {
         </div>
         <div className="months">
           {months.map((month) => (
-            <p key={month}>{month}</p>
+            <p key={month} className={month}>{month}</p>
           ))}
         </div>
       </div>
