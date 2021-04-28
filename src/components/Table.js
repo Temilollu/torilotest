@@ -105,11 +105,7 @@ export const tableData = [
 ];
 
 const Table = () => {
-  const status = {
-    Approved: ["red", "yellow"],
-    Declined: ["grey", "purple"],
-  };
-  console.log(status["Approved"][0]);
+ 
   return (
     <div className="table-container">
       <div className="heading">

@@ -5,7 +5,61 @@
 }
 .graph-container {
   position: relative;
+  margin: 2rem 0;
 }
+
+.graph {
+  position: relative;
+}
+.graph-heading {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.graph-heading select {
+  height: 35px;
+  color: #110b56;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  width: 100px;
+}
+
+.graph-heading .dots {
+  display: flex;
+  justify-content: space-between;
+  width: 25%;
+}
+.graph-heading .dots .dots-text {
+  display: flex;
+  align-items: center;
+}
+
+.graph-heading .dots .dots-text span {
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 15px;
+  letter-spacing: 0.02em;
+  color: #110b56;
+}
+.vl {
+  border-left: 1px solid #0F3F62;
+  height: 105px;
+  top: 21%;
+  position: absolute;
+  left: 47%;
+}
+.circle{
+  width: 10px;
+  height: 10px;
+  border: 1px solid #FA5F1C;
+  border-radius: 50%;
+  background: #F7FAFC;
+  position: absolute;
+  left: 46.4%;
+  top: 25%;
+}
+
 .first p {
   width: 4%;
   margin: 0;
@@ -15,11 +69,10 @@
   color: #79869f;
 }
 .first .line {
-  width: 90%;
+  width: 95%;
   display: block;
   height: 0.5px;
   background-color: #d6dce0;
-  
 }
 .months {
   display: flex;
@@ -34,13 +87,13 @@
   color: #79869f;
 }
 .blue-vector {
-  width: 90%;
+  width: 95%;
   position: absolute;
   left: 4%;
   top: 15%;
 }
 .red-vector {
-  width: 90%;
+  width: 95%;
   position: absolute;
   left: 4%;
   top: 27%;
