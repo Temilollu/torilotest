@@ -132,12 +132,12 @@ const Table = () => {
           <th>
             <input type="checkbox" name="" id="" />
           </th>
-          <th width="40%" style={{ paddingLeft: "4rem" }}>
+          <th width="35%" style={{ paddingLeft: "4rem" }}>
             Company name
           </th>
           <th width="18%">Company size</th>
           <th width="12%">Yrs of inc.</th>
-          <th width="40%">Revenue</th>
+          <th width="42%">Revenue</th>
         </tr>
 
         {tableData.map((row) => (
