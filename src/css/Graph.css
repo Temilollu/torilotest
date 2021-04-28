@@ -28,7 +28,7 @@
 .graph-heading .dots {
   display: flex;
   justify-content: space-between;
-  width: 25%;
+  width: 23%;
 }
 .graph-heading .dots .dots-text {
   display: flex;

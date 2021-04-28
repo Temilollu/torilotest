@@ -1,7 +1,5 @@
 .table-side-container {
   background: #ffffff;
-  /* border: 1px solid #e3eded;
-    border-radius: 2px; */
   padding: 0 0 0 20px;
   margin: 30px 0;
 }
@@ -17,6 +15,11 @@
   line-height: 25px;
   color: #2979f2;
 }
+.first-col .across {
+  font-size: 12px;
+  line-height: 15px;
+  color: #919eab;
+}
 .first-col p {
   margin: 0.3rem;
 }
@@ -24,14 +27,16 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
+  color: #79869f;
+  text-transform: capitalize;
+  margin: 0.7rem 0;
 }
 .details p {
   margin: 0.3rem;
+  font-size: 12px;
+  line-height: 16px;
 }
-.details > * {
-  color: #79869f;
-  text-transform: capitalize;
-}
+
 #response {
   margin-top: 1rem;
   font-weight: normal;
@@ -47,7 +52,7 @@
   color: #3b4859;
 }
 .second-col {
-  margin-top: 1rem;
+  margin-top: 1.25rem;
   background: #ffffff;
   border: 1px solid #e3eded;
   border-radius: 2px;
@@ -72,11 +77,14 @@
   border-style: none;
   padding: 0.5rem 0.8rem;
 }
+.messages{
+  padding: .5rem;
+}
 .message {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  border-bottom: 1px solid #E3EDED;
+  border-bottom: 1px solid #e3eded;
 }
 .text .name {
   font-style: normal;
@@ -92,7 +100,7 @@
   line-height: 15px;
   color: rgba(99, 115, 129, 1);
 }
-.message img{
-    align-self: flex-start;
-    margin-top: .3rem;
+.message img {
+  align-self: flex-start;
+  margin-top: 0.3rem;
 }

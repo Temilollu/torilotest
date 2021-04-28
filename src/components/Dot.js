@@ -1,11 +1,7 @@
-import React from 'react'
+import React from "react";
 
-const Dot = ({color}) => {
-    return (
-        <div className="dot" style={{backgroundColor : color}}>
-            
-        </div>
-    )
-}
+const Dot = ({ color }) => {
+  return <div className="dot" style={{ backgroundColor: color }}></div>;
+};
 
-export default Dot
+export default Dot;

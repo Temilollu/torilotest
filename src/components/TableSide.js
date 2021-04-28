@@ -4,16 +4,16 @@ import neutralIcon from "../assets/icons/Group 2 (1).png";
 import negativeIcon from "../assets/icons/Group 2 (2).png";
 import "../css/Tableside.css";
 import { tableData } from "./Table";
-import verticon from "../assets/icons/vertIcon.png"
+import verticon from "../assets/icons/vertIcon.png";
 
 const TableSide = () => {
- const tableSideData =  tableData.slice(0, 5);
- console.log(tableSideData);
+  const tableSideData = tableData.slice(0, 5);
+
   return (
     <div className="table-side-container">
       <div className="first-col">
         <h2>Customer Satisfation</h2>
-        <p>Across help desk this month</p>
+        <p className="across">Across help desk this month</p>
         <p id="response">Response received</p>
         <p id="number">390</p>
         <div className="details">
@@ -35,22 +35,22 @@ const TableSide = () => {
         </div>
       </div>
       <div className="second-col">
-          <div className="heading">
-              <h2>Messages</h2> <button>+ New message</button>
-          </div>
-          <div className="messages">
-              {tableSideData.map(table => (
-                  <div className="message">
-                      <img src={table.logo} alt={table.companyName}/>
-                    <div className="text">
-                        <p className="name">{table.companyName}</p>
-                        <p>Hey, don’t forget to clear server cache! 25mins ago</p>
-                        <p>25mins</p>
-                    </div>
-                    <img src={verticon} alt=""/>
-                  </div>
-              ))}
-          </div>
+        <div className="heading">
+          <h2>Messages</h2> <button>+ New message</button>
+        </div>
+        <div className="messages">
+          {tableSideData.map((table) => (
+            <div className="message">
+              <img src={table.logo} alt={table.companyName} />
+              <div className="text">
+                <p className="name">{table.companyName}</p>
+                <p>Hey, don’t forget to clear server cache! 25mins ago</p>
+                <p>25mins</p>
+              </div>
+              <img src={verticon} alt="" />
+            </div>
+          ))}
+        </div>
       </div>
     </div>
   );

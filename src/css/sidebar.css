@@ -21,7 +21,6 @@
 .side-bar-wrapper :nth-of-type(5) {
   position: absolute;
   bottom: 0;
-  /* display: none; */
 }
 .active { 
     color: rgba(41, 121, 242, 1);

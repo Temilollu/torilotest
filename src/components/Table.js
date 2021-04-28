@@ -11,6 +11,8 @@ import AtlassianLogo from "../assets/icons/Rectangle 12 (6).png";
 import WeevilCompanyLogo from "../assets/icons/Rectangle 12 (7).png";
 import EnyataLogo from "../assets/icons/Rectangle 12 (8).png";
 import CloudNetLogo from "../assets/icons/Rectangle 12 (9).png";
+import backwardArrow from "../assets/icons/Vector (16).png";
+import forwardArrow from "../assets/icons/Vector (17).png";
 export const tableData = [
   {
     logo: cregitalIcon,
@@ -105,7 +107,6 @@ export const tableData = [
 ];
 
 const Table = () => {
- 
   return (
     <div className="table-container">
       <div className="heading">
@@ -134,8 +135,8 @@ const Table = () => {
           <th width="40%" style={{ paddingLeft: "4rem" }}>
             Company name
           </th>
-          <th width="15%">Company size</th>
-          <th width="15%">Yrs of inc.</th>
+          <th width="18%">Company size</th>
+          <th width="12%">Yrs of inc.</th>
           <th width="40%">Revenue</th>
         </tr>
 
@@ -170,6 +171,17 @@ const Table = () => {
           </tr>
         ))}
       </table>
+      <div className="table-footer">
+        <img src={backwardArrow} alt="" />
+        <ul className="pagination">
+          <li className="active">1</li>
+          <li>2</li>
+          <li>3</li>
+          <li className="double-dots">...</li>
+          <li>200</li>
+        </ul>
+        <img src={forwardArrow} alt="" />
+      </div>
     </div>
   );
 };

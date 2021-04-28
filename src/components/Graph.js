@@ -22,7 +22,7 @@ const Graph = () => {
     <div className="graph-container">
       <div className="graph-heading">
         <select>
-          <option value="sort">Sort</option>
+          <option value="monthly">Monthly</option>
         </select>
         <div className="dots">
           <p className="dots-text">
@@ -58,7 +58,9 @@ const Graph = () => {
         </div>
         <div className="months">
           {months.map((month) => (
-            <p key={month} className={month}>{month}</p>
+            <p key={month} className={month}>
+              {month}
+            </p>
           ))}
         </div>
       </div>

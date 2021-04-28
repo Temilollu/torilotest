@@ -4,7 +4,7 @@ import dashboardIcon from "../assets/icons/Vector (12).png";
 import companies from "../assets/icons/Group.png";
 import projects from "../assets/icons/Vector (13).png";
 import messages from "../assets/icons/Vector (15).png";
-import settings from "../assets/icons/settings 1.png"
+import settings from "../assets/icons/settings 1.png";
 import "../css/sidebar.css";
 const Sidebar = () => {
   const sidebarItems = [
