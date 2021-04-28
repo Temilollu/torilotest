@@ -44,7 +44,7 @@ const TableSide = () => {
               <img src={table.logo} alt={table.companyName} />
               <div className="text">
                 <p className="name">{table.companyName}</p>
-                <p>Hey, don’t forget to clear server cache! 25mins ago</p>
+                <p>Hey, don’t forget to clear server cache!</p>
                 <p>25mins</p>
               </div>
               <img src={verticon} alt="" />

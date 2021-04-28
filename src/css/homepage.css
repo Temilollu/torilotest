@@ -1,20 +1,20 @@
 .homepage-container {
   background-color: rgba(255, 255, 255, 1);
-  padding: 1.8rem;
+  padding: 1.5rem 1.8rem;
 }
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
   position: relative;
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 .navbar input {
   background: #ffffff;
   border: 1px solid #e3eded;
   box-sizing: border-box;
   border-radius: 2px;
-  height: 40px;
+  height: 35px;
   width: 400px;
   padding-left: 3rem;
   font-weight: normal;
@@ -36,11 +36,12 @@
   font-size: 20px;
   line-height: 25px;
   color: #110b56;
+  margin-top: 0;
 }
 .overview-item {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-gap: 20px;
+  grid-gap: 30px;
 }
 .overview-item .overview {
   border-radius: 2px;
